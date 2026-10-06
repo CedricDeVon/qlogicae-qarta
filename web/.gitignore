@@ -1,25 +1,20 @@
-node_modules
+# Dependencies
+/node_modules
 
-# Output
-.output
-.vercel
-.netlify
-.wrangler
-/.svelte-kit
+# Production
 /build
 
-# OS
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
 .DS_Store
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Env
-.env
-.env.*
-!.env.example
-!.env.test
-
-# Vite
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-# Playwright
-test-results
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
